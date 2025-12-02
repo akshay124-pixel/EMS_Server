@@ -1,0 +1,35 @@
+{
+    "name": "employee-management-backend",
+    "version": "1.0.0",
+    "description": "Enterprise GraphQL Backend for Employee Management",
+    "main": "src/server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "seed": "node src/utils/seed.js"
+    },
+    "keywords": [
+        "graphql",
+        "express",
+        "jwt",
+        "enterprise"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@graphql-tools/schema": "^10.0.2",
+        "apollo-server-express": "^3.13.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dataloader": "^2.2.2",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "graphql": "^16.8.1",
+        "jsonwebtoken": "^9.0.2",
+        "node-cache": "^5.1.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
